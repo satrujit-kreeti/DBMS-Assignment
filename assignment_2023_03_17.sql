@@ -1,4 +1,8 @@
+
+/* MySQL */
+
 -- 1.Create tables
+
 
 create table
     jobs(
@@ -258,7 +262,7 @@ VALUES (1,
         1
     );
 
--- Operations
+-- 3. Operations
 
 -- (a)
 
@@ -267,10 +271,10 @@ alter table departments add column manager_name varchar(255);
 -- (b)
 
 alter table jobs drop column max_salary;
-
+-- (c)
 alter table locations rename column postal_code to pincode;
 
--- Constratints
+-- 4.Constratints
 
 -- (a)
 
