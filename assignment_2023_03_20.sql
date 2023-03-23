@@ -11,7 +11,7 @@ limit 10 offset 3;
 /* 3. */
 
 select distinct salary as Top5salaries
-from Employees
+from employees
 order by salary DESC
 limit 5;
 
