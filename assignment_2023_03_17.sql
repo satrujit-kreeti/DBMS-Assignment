@@ -63,7 +63,7 @@ create table
 
 create table
     dependents (
-        department_id int primary key,
+        dependent_id int primary key,
         first_name varchar(255),
         last_name varchar(255),
         relationship varchar(255),
